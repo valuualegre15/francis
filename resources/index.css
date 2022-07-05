@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+	width:100%;
+	background:#252932;
+    padding: 30px 100px ;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 110px;
+}
+ 
+
+
+
+header .logo {
+	color:#f2f2f2;
+	font-size:2em;
+	line-height:200px;
+	position:relative ;
+	text-decoration: none;
+	margin-top: 3%;
+
+   
+}
+
+header#top {
+    border-bottom: 3px solid #db7a23;
+}
+
+.group{
+	position: relative;
+	display: flex;
+}
+
+.group .navigation
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.group ul li{
+	
+	list-style: none;
+
+}
+
+.group ul li a{
+
+	color: white;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+
+.group ul li a:hover{
+	color: #db7a23;
+}
+
+
+.banner{
+	position: relative;
+	width: 100%;
+}
+
+.banner .bg{
+	position: relative;
+	width: 100%;
+	height: 75vh;
+	background: #555;
+	
+}
+
+
+.cover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+body {
+    
+	background-color: #3f3f3f;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+
+}
+
+h2{
+	font-size: 22px;
+	line-height: 30px;
+	padding-top: 50px;
+	margin-left: 7%;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #e76c00;
+}
+
+.divider-wrap
+{
+	
+	width: 60px;
+	height: 2px;
+	visibility: visible;
+	background-color: #db7a23;
+	margin-inline-start: 7%;
+	margin-top: 2%;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+
+
+p{
+	
+	margin-top: 1%;
+	padding-top: 10px;
+    padding-bottom: 15px;
+	color: #f2f2f2;
+	margin-left: 7%;
+
+
+	
+
+}
+
+
+
+
+.col
+{
+	float: inline-end;
+	padding-left: 5.3%;
+	display:flex;
+	
+	
+}
+
+.col-love
+{
+
+	float:left ;
+	padding-left: 5.3%;
+	
+}
+
+
+.card
+{
+   display: flexbox;
+   
+}
+
+
+.card-img-top
+{
+    margin-left: 7%;
+	padding-top: 3%;
+	width: 75%;
+	
+	
+}
+
+.card-title
+{
+   margin-left: 7%;
+   margin-top: 3%;
+   color: #db7a23;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-two
+{
+   margin-top: 20%;
+   background-color: #555;
+   padding: 12%;
+}
+
+h6
+{
+	margin-top: 6%;
+	margin-left: 17%;
+	font-size: 45px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #e76c00;
+	
+}
+
+  .vl {
+	border-left: 1px solid orange;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	margin-top: 100%;
+	top: 0;
+  }
+
+
+  .nectar-button.small.accent-color.has-icon.regular-button {
+    border-radius: 5px;
+	}
+
+
+
+ .nectar-button{
+    background-color: #db7a23!important;
+	
+}
+
+.nectar-button.has-icon.small, .nectar-button.tilt.has-icon.small {
+    padding-left: 33px;
+    padding-right: 33px;
+	
+}
+
+body .nectar-button.small {
+    font-size: 15px;
+	margin-left: 32%;
+	
+}
+
+.nectar-button {
+    line-height: 20px;
+    display: inline-block;
+}
+
+.nectar-button.small {
+    
+    padding: 8px 14px;
+    color: #FFF;
+	text-decoration: none;
+}
+
+.col1 {
+	border-left: 1px solid orange;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	margin-top: 100%;
+	top: 0;
+	display: flex;
+	
+}
+
+
+.pradas{
+
+	margin: 3%;
+}
+
+.prada{
+	margin: 3%;
+}
+
+.gucci{
+	margin: 3%;
+}
+
+.ban{
+	padding: 15rem 0;
+	background-image: url('five.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.lol{
+	margin-left:30% ;
+}
+
+
+
+.collol{
+	float: left;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 3%;
+	text-align: right;
+}
+
+h3{
+	color: #f2f2f2;
+	
+	padding-left: 5.3%;
+	padding-top: 10%;
+	font-size: medium;
+	
+}
+
+.row-bg-overlay{
+	margin-top: 20%;
+	background-repeat: no-repeat;
+	
+    
+}
+
+.colum-image-bg{
+	
+	display:flex;
+   
+	
+	
+	
+
+}
+
+
+
+h6{
+	margin-bottom: 1%;
+}
+
+p{
+	padding: 10%;
+}
+
+.column-image-bg-wrap{
+	padding-bottom: 30%;
+	padding: -30%;
+	margin-block-end: 15%;
+}
+  
+
+.inner-wrap{
+	margin: 0%;
+	padding: -5%;
+	
+}
+.column-bg-overlay{
+	margin: -15%;
+}
+
+.column-bg-overlay-wrap{
+   margin:-10%;
+}
+
